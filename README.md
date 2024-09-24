@@ -1,4 +1,4 @@
-# 2024_Autumn_DataAnalysisStudy
+.# 2024_Autumn_DataAnalysisStudy
 
 
 ## **스터디 목표**
@@ -48,12 +48,14 @@
 ## **스터디 규칙**
 - 결석 및 과제 미제출시 스터디경고 1회
 - 출석 지각 2회 누적 시 스터디경고 1회 단, 해당주차 화요일 자정전까지 운영진에게 지각사유가 합당함을 증명시 지각처리 면제
+	- 7시 10분 이후부터 지각 처리
 - 과제 지각 2회 누적 시 스터디경고 1회, 면제없음 
 - 과제 미제출 기준: 해당 주차 금요일 자정까지 제출하지 않을 시 미제출로 판단
 - 결석사유가 학교공결처리기준에 부합시 대체과제 + 결석사유서를 통해 스터디경고를 차감가능
+	- 결석하더라도 과제를 제출하여야 함.
 ### **대체 과제 & 결석사유서**
 - 대체 과제 : 해당주차 개념요약 1면 이상 pdf + 해당주차 본인 팀의 문제를 모두 풀기, 결석 주차 기준 2주 내로 제출
-- 결석사유서 : 운영위원에게 제출(smarcle2024@gmail.com) <br>
+- 결석사유서 : **결석하는 스터디 주차의 과제 제출 기간까지** 운영위원에게 제출(smarcle2024@gmail.com) <br>
 [동아리 결석 사유서.hwpx](https://github.com/sejongsmarcle/2024_Autumn_DataAnalysisStudy/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C.hwpx) <br>
 [동아리 결석 사유서.docx](https://github.com/sejongsmarcle/2024_Autumn_DataAnalysisStudy/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C_word%EC%9A%A9.docx)
 
