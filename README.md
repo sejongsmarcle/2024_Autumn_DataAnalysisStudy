@@ -1,4 +1,4 @@
-.# 2024_Autumn_DataAnalysisStudy
+# 2024_Autumn_DataAnalysisStudy
 
 
 ## **스터디 목표**
