@@ -55,7 +55,7 @@
 	- 결석하더라도 과제를 제출하여야 함.
 ### **대체 과제 & 결석사유서**
 - 대체 과제 : 해당주차 개념요약 1면 이상 pdf + 해당주차 본인 팀의 문제를 모두 풀기, 결석 주차 기준 2주 내로 제출
-- 결석사유서 : **결석하는 스터디 주차의 과제 제출 기간까지** 운영위원에게 제출(smarcle2024@gmail.com) <br>
+- 결석사유서 : **결석하는 스터디 주차의 전 날까지** 운영위원에게 제출(smarcle2024@gmail.com) <br>
 [동아리 결석 사유서.hwpx](https://github.com/sejongsmarcle/2024_Autumn_DataAnalysisStudy/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C.hwpx) <br>
 [동아리 결석 사유서.docx](https://github.com/sejongsmarcle/2024_Autumn_DataAnalysisStudy/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C_word%EC%9A%A9.docx)
 
