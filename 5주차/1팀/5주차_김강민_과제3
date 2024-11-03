@@ -1,0 +1,20 @@
+https://drive.google.com/file/d/1hfT_Z4u9F9866WERTDJ8a7XAxC0H4XNW/view?usp=drive_link
+위 파일을 다운받은뒤, 결측치를 선형보간하고, 출력하시오
+
+
+
+
+
+
+```python
+import pandas as pd
+
+# D 드라이브에서 CSV 파일 불러오기(예시)
+df = pd.read_csv('D:/sample_data_3.csv')
+
+# 선형 보간 적용
+df.interpolate(method='linear', axis=0, inplace=True)
+
+# 결과 출력
+print(df)
+```
