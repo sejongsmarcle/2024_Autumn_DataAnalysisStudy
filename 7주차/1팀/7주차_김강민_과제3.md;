@@ -1,0 +1,99 @@
+강민이는 지난 10개월을 애슐리에서 일해오며 </br>
+생체 빅데이터를 통해 가장 바쁜 요일, 가장 바쁜 시간대를 알고있다. </br>
+하지만 다른 사람에게 추천 시간대를 말할때마다 너무 불편해서 가장 바쁜 시간대를 한눈에 볼 수 있는 표를 제작하려 한다. </br>
+표는 버블 차트로, 크기는 모두 동일하며 빨간색과 파란색을 이용해 가장 바쁜 시간대를 빨간색으로 표시하려 한다. </br>
+아래 코드에서 빈 칸을 채우시오. </br> </br>
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+days = ["Saturday", "Sunday", "Friday", "Wednesday", "Monday", "Tuesday"]
+times = ["19-20", "17-18", "12-13", "18-19", "14-15", "13-14", "11-12", "16-15", "15-16"]
+busiest_values = [6, 5, 4, 3, 2, 1]  # 요일별 바쁨 정도
+time_busiest_values = [9, 8, 7, 6, 5, 4, 3, 2, 1]  # 시간대별 바쁨 정도
+
+# 데이터프레임 생성
+data = {
+    "Day": [day for day in days for _ in times],
+    "Time": times * len(days),
+    "BusyLevel": [bv * tv for bv in busiest_values for tv in time_busiest_values],
+}
+df = pd.DataFrame(data)
+
+# 요일과 시간대 정렬을 위한 순서 지정
+day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+time_order = ["11-12", "12-13", "13-14", "14-15", "15-16", "16-15", "17-18", "18-19", "19-20"]
+
+# 데이터프레임 정렬
+df["Day"] = pd.Categorical(df["Day"], categories=day_order, ordered=True)
+df["Time"] = pd.Categorical(df["Time"], categories=time_order, ordered=True)
+df = df.sort_values(["Day", "Time"])
+
+# 버블 차트 그리기
+()
+
+# 차트 보여주기
+plt.tight_layout()
+plt.show()
+
+```
+
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+
+
+
+
+
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 데이터 준비
+days = ["Saturday", "Sunday", "Friday", "Wednesday", "Monday", "Tuesday"]
+times = ["19-20", "17-18", "12-13", "18-19", "14-15", "13-14", "11-12", "16-15", "15-16"]
+busiest_values = [6, 5, 4, 3, 2, 1]  # 요일별 바쁨 정도
+time_busiest_values = [9, 8, 7, 6, 5, 4, 3, 2, 1]  # 시간대별 바쁨 정도
+
+# 데이터프레임 생성
+data = {
+    "Day": [day for day in days for _ in times],
+    "Time": times * len(days),
+    "BusyLevel": [bv * tv for bv in busiest_values for tv in time_busiest_values],
+}
+df = pd.DataFrame(data)
+
+# 요일과 시간대 정렬을 위한 순서 지정
+day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+time_order = ["11-12", "12-13", "13-14", "14-15", "15-16", "16-15", "17-18", "18-19", "19-20"]
+
+# 데이터프레임 정렬
+df["Day"] = pd.Categorical(df["Day"], categories=day_order, ordered=True)
+df["Time"] = pd.Categorical(df["Time"], categories=time_order, ordered=True)
+df = df.sort_values(["Day", "Time"])
+
+# 버블 차트 그리기
+plt.figure(figsize=(12, 8))
+scatter = plt.scatter(
+    df["Day"],
+    df["Time"],
+    s=300,  # 버블 크기 설정
+    c=df["BusyLevel"],
+    cmap="coolwarm",  # 빨강에서 파랑으로
+)
+plt.colorbar(scatter, label="Busy Level")
+plt.title("Ashley Store: Busyness by Day and Time")
+plt.xlabel("Day")
+plt.ylabel("Time")
+
+
+# 차트 보여주기
+plt.tight_layout()
+plt.show()
+```
+
+
